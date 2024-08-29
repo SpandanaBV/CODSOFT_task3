@@ -1,0 +1,150 @@
+/* General Body Styling */
+body 
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background: #808080; /* Set background to gray */
+}
+
+.container 
+{   
+    margin-left: 1.8em;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 13px 13px 20px #696969,  /* Darker gray for shadow */
+              -13px -13px 20px #a9a9a9; /* Lighter gray for shadow */
+    background: #808080; /* Set container background to gray */
+}
+
+.content 
+{
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row button 
+{
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    background: #696969; /* Darker gray background for buttons */
+    color: #fff; /* White text */
+    box-shadow: 5px 5px 8px #00000020,
+               -5px -5px 8px #a9a9a9;
+}
+
+.row button:hover 
+{
+    box-shadow:  inset 5px 5px 8px rgba(16, 16, 16, .1),
+                 inset -5px -5px 8px #696969;
+    background: #808080; /* Change to gray on hover */
+}
+
+.display #screen 
+{
+    margin-bottom: .5em;
+    width: auto;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #696969; /* Darker gray background for screen */
+    color: #fff; /* White text */
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #595959,  /* Darker inset shadow */
+                inset -8px -8px 8px #a9a9a9; /* Lighter inset shadow */
+}
+
+#eval 
+{
+    background: #33ccff; /* Keep the original color */
+    color: #fff; /* White text */
+    box-shadow: inset 5px 5px 8px #66d9ff,
+                inset -5px -5px 8px #00ace6;
+}
+
+#eval:hover 
+{
+    box-shadow: inset 5px 5px 8px #00ace6,
+                inset -5px -5px 8px #00ace6;
+}
+
+#ac 
+{
+    background: #33cc33; /* Keep the original color */
+    color: #fff; /* White text */
+}
+
+#ac:hover 
+{
+    box-shadow: inset 5px 5px 8px #2eb82e,
+                inset -5px -5px 8px #33cc33;
+}
+
+#ce 
+{
+    background: #ff3399; /* Keep the original color */
+    color: #fff; /* White text */
+}
+
+#ce:hover 
+{
+      box-shadow: inset 5px 5px 8px #e60073,
+                  inset -5px -5px 8px #ff3399;
+}
+
+/*================= Heading Css =================*/
+h2
+{
+    font-size: 40px;
+    position: relative;  
+    bottom: 1em; 
+    margin-left: 1.2em;
+    font-family: sans-serif;
+    color: #fff;  /* White text */
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #808080, /* Lighter gray shadow */
+                    1px 1px 2px #808080,
+                    3px 3px 3px #808080,
+                    4px 4px 4px #808080,
+                    5px 5px 5px #808080, 
+                    6px 6px 6px #808080,
+                    7px 7px 7px #808080,
+                    8px 8px 8px #808080;
+    letter-spacing: 6px;
+}
+
+h2 span
+{
+    color: #fff; /* White text */
+    font-size: 45px;
+    text-shadow: 1px 1px 1px #808080, /* Lighter gray shadow */
+                1px 1px 2px #808080,
+                3px 3px 3px #808080,
+                4px 4px 4px #808080,
+                5px 5px 5px #808080, 
+                6px 6px 6px #808080 ;    
+}
+
+h2 .fa
+{
+    position: absolute; 
+    top: 1.5em;
+    color: #fff; /* White icon color */
+}
